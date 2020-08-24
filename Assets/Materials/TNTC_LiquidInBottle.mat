@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TNTC_LiquidInBottle
+  m_Shader: {fileID: 4800000, guid: 388e755412c23426cae14ccb7581b537, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 3e01fca251638f04a8752569677e58fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMapInner:
+        m_Texture: {fileID: 2800000, guid: c6c148932062745c99d5687f033926bb, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 2.31, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f56ab2be881764e329c28e50f10ef9ba, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpStrenght: -0.95
+    - _BumpStrenghtInner: 0.15
+    - _FillAmount: 0.3
+    - _Glossiness: 0.302
+    - _Metallic: 0.571
+    - _RimPower: 12.57
+    - _RotationSpeed: 0
+    - _Ruffle: 10
+    - _RuffleStrenght: 100
+    - _StencilMask: 255
+    - _StencilRef: 255
+    - _StencilValue: 255
+    m_Colors:
+    - _Color: {r: 0.23215558, g: 0.3259555, b: 0.3490566, a: 0.27450982}
+    - _CrossColor: {r: 0.23529412, g: 0.32941177, b: 0.3529412, a: 0.27450982}
+    - _PlaneNormal: {r: -0, g: 1.0000001, b: 0.00000011920929, a: 0}
+    - _PlanePosition: {r: -1.2388556, g: -0.22103924, b: -0.31659323, a: 0}
+    - _RimColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+    - _TopColor: {r: 0.23137255, g: 0.3254902, b: 0.34901962, a: 0.27450982}
